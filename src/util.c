@@ -7,7 +7,7 @@ float util_clampf(float value, float min, float max){
         min = max;
         max = temp;
     }
-    
+
     if(value < min){
         return min;
     }
